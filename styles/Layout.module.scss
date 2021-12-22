@@ -1,0 +1,144 @@
+.containerGeneralForm {
+  border-radius: 10px;
+  padding: 1rem;
+  form {
+    background-color: #f8f9f9;
+    border-color: #f8f9f9!important;
+    border-radius: 10px;
+    padding: 2rem!important;
+    label {
+      color: #a9a9a9;
+      font-weight: 700;
+    }
+    input, select, textarea {
+      background-color: #fff;
+    }
+    h4 {
+      color: #a9a9a9!important;
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+    button.btn-primary {
+      background-color:  #005f9a;
+      border-color: #005f9a;
+    }
+  }
+}
+
+.containerPublicSchedule { 
+  background: -webkit-linear-gradient(#53bbbf, #0f1939);
+  background: -moz-linear-gradient(#53bbbf, #0f1939);
+  background: -ms-linear-gradient(#53bbbf, #0f1939);
+  background: -o-linear-gradient(#53bbbf, #0f1939);
+  background: linear-gradient(#53bbbf, #0f1939);
+  padding: 3rem 10rem!important;
+  min-height: 100vh;
+  h3.header-queue-contact {
+    color: #005f9a !important;
+    background-color: #f8f9f9;
+    padding: 1rem; 
+  }
+  .card.queue-contact {
+    padding: 2rem 1.5rem!important;
+  }
+  .card {
+    border-radius: 10px;
+    padding: 2rem 3rem;
+    .cardBody, .cardHeader {
+      padding-right: 0!important;
+      padding-left: 0!important;
+    }
+    .cardHeader {
+      border-bottom: 1px solid rgba(0,0,0,.1);
+      h1 {
+        color:#005f9a;
+        font-weight: 500;
+      }
+      h3 {
+        color: #005f9a!important;
+        background-color: #f8f9f9;
+        padding: 1rem 0;
+      }
+    }
+    .cardBody {
+      form {
+        background-color: #f8f9f9;
+        border-color: #f8f9f9!important;
+        border-radius: 10px;
+        padding: 2rem!important;
+        label {
+          color: #a9a9a9;
+          font-weight: 700;
+        }
+        input, select, textarea {
+          background-color: #fff;
+        }
+        h4 {
+          color: #a9a9a9!important;
+          font-size: 1.3rem;
+          font-weight: 700;
+        }
+        button.btn-primary {
+          background-color:  #005f9a;
+          border-color: #005f9a;
+        }
+      }
+    }
+    .cardBody.done-queue {
+      h2 {
+        color: #93b832;
+      }
+      h3 {
+        color: #888;
+        font-size: 1.75rem;
+      }
+      .detail-schedule {
+        text-align: left!important;
+      }
+    }
+    .cardBody.full-queue {
+      h2 {
+        color: #940c0c;
+      }
+      h3 {
+        color: #888;
+        font-size: 1.75rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+  .containerPublicSchedule {
+    padding: 3rem 8rem!important;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .containerPublicSchedule {
+    padding: 2rem 3rem!important;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 577px) {
+  .containerPublicSchedule {
+    padding: 1.8rem!important;
+  }
+}
+
+@media (max-width: 767px) {
+  .containerPublicSchedule .card {
+    padding: 2rem 1.5rem;
+    .card-body.done-queue {
+      .detail-schedule h4 {
+        text-align: center!important;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .containerPublicSchedule {
+    padding: 1rem!important;
+  }
+}
